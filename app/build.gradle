@@ -22,6 +22,8 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:30.1.1-jre'
+    if (System.env.ADDLOG4J) implementation 'org.apache.logging.log4j:log4j:2.14.1'
+    println System.env.ADDLOG4J
 }
 
 application {

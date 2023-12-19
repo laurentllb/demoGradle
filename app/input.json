@@ -1,0 +1,20 @@
+{
+    "data": {
+        "polaris": {
+            "application": {
+                "name": "laurentl-test application"
+            },
+            "project": {
+                "name": "gradleDemo"
+            },
+            "branch": {
+            "name": "main"
+                },
+            "assessment": {
+                "types":  ["SCA"]
+ 
+            },
+            "serverurl": "https://poc.polaris.synopsys.com"
+        }
+    }
+}
